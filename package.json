@@ -1,0 +1,35 @@
+{
+    "name": "color-harmonizer",
+    "version": "1.0.0",
+    "description": "Harmonize and modify input file colors. Used to convert an entire project's colors (hex, and soon rgb) to desired harmonic values that are closest to their current ones.",
+    "main": "index.js",
+    "scripts": {},
+    "bin": {
+        "harmonize": "index.js"
+    },
+    "keywords": [
+        "color",
+        "harmonics",
+        "harmony"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:rw3iss/color-harmonizer.git"
+    },
+    "author": "Ryan Weiss <rw3iss@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "caporal": "^1.4.0",
+        "prompts": "^2.3.2"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    },
+    "bugs": {
+        "url": "https://github.com/rw3iss/nestjs-gen/issues"
+    },
+    "homepage": "https://github.com/rw3iss/nestjs-gen#readme",
+    "directories": {
+        "lib": "lib"
+    }
+}
